@@ -4,10 +4,10 @@ import { BotComponent } from 'reactnative-directline';
 export default function App() {
   return (
     <BotComponent
-      directLineKey="hY3AjiD-J1w.YoZkm1Ulde_x_AoDZb8KBbdyUfEj0-el0rjeYrwHg4o"
-      userName="Saif"
+      directLineKey="add DirectLine Key"
+      userName="add User Name"
       getConversationId={(conversationId) =>
-        console.log('conversationId', conversationId)
+        console.log('Get Conversation ID', conversationId)
       }
     />
   );
