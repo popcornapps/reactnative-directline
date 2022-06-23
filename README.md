@@ -11,11 +11,17 @@ npm install reactnative-directline
 ## Usage
 
 ```js
-import { multiply } from "reactnative-directline";
+import { BotComponent } from 'reactnative-directline';
 
 // ...
 
-const result = await multiply(3, 7);
+<BotComponent
+  directLineKey="add DirectLine Key"
+  userName="add User Name"
+  getConversationId={(conversationId) =>
+    console.log('Get Conversation ID', conversationId)
+  }
+/>;
 ```
 
 ## Contributing
