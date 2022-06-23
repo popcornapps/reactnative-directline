@@ -1,17 +1,17 @@
-# react-native-reactnative-directline
+# reactnative-directline
 
 React Native Directline
 
 ## Installation
 
 ```sh
-npm install react-native-reactnative-directline
+npm install reactnative-directline
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-reactnative-directline";
+import { multiply } from "reactnative-directline";
 
 // ...
 

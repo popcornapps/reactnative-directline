@@ -1,6 +1,6 @@
 {
-  "name": "react-native-reactnative-directline-example",
-  "description": "Example app for react-native-reactnative-directline",
+  "name": "reactnative-directline-example",
+  "description": "Example app for reactnative-directline",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,13 +9,22 @@
     "start": "react-native start"
   },
   "dependencies": {
-    "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react": "17.0.2",
+    "react-native": "0.68.0",
+    "react-native-gifted-chat": "^0.16.3",
+    "react-native-snap-carousel": "^3.9.1",
+    "axios": "^0.26.1",
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "axios-auth-refresh": "^3.2.2"
+  },
+  "resolutions": {
+    "@types/react": "^17"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/runtime": "^7.12.5",
     "babel-plugin-module-resolver": "^4.0.0",
-    "metro-react-native-babel-preset": "^0.64.0"
+    "metro-react-native-babel-preset": "^0.64.0",
+    "reactotron-react-native": "^5.0.1"
   }
 }

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-reactnative-directline": ["./src/index"]
+      "reactnative-directline": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
